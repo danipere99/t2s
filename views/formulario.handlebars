@@ -1,0 +1,123 @@
+<form action="/add" method="POST">
+<main>
+            
+            <header>
+                <h1>Processos de entrada e saida.</h1>
+            </header>
+            <section>
+                <h2>Container</h2>
+                <br>
+                <div class="inputbox">
+                    <label for="cliente">Cliente</label>
+                    <input type="text" name="cliente" id="cliente">
+                    
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="numeracao">Numero do Container</label>
+                    <input type="text" name="numeracao" id="numeracao">
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="selecao">Tipo em pes'</label>
+                    <select id="selecao" name="selecao">
+                        <option value="esco1">20'</option>
+                        <option value="esco2">40'</option>
+                    </select>
+                    <br>
+                    <br>
+                </div>
+                <label for="selecao">Status</label>
+                    <select id="selecao" name="selecao2">
+                        <option value="esco1">Vazio</option>
+                        <option value="esco2">Cheio</option>
+                    </select>
+                <div>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria" name="categoria">
+                        <option value="esco1">Exportação</option>
+                        <option value="esco2" name="categoria">Importação</option>
+                    </select>
+                </div>
+                <br>
+                <h2>Informações adicionais</h2>
+                <div class="inputbox">
+                    <label for="info">Shipper:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Consigner:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Notify:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Vessel Voyage:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Port of Loading:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Port of Discarger:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Bill of Lading:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Container Number Seal:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Gross Cargo Wright:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="info">Products:</label>
+                    <input type="text" id="info" name="info">
+                </div><br>
+                <div class="inputbox">
+                    <label for="info">Hscode:</label>
+                    <input type="text" id="info" name="info">
+                </div><br>
+                <div class="inputbox">
+                    <label for="info">IMO:</label>
+                    <input type="text" id="info" name="info">
+                </div>
+                <p>
+                    International maritmo organization
+                </p>
+                <h2>
+                    Movimentação
+                </h2>
+                <label for="inport">Data de inicio:</label>
+                <input type="date" id="inport" name="inicio">
+                <label for="inport">Data do fim:</label>
+                <input type="date" id="inport" name="fim">
+            </section>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+            
+</main>
+</form>
